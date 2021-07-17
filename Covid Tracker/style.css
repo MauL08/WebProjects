@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background: black;
+}
+.judul {
+    position: absolute;
+    top: 40px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.top {
+    animation: main 3s infinite;
+}
+@keyframes main {
+    0% {
+        color: lime;
+    }
+    50% {
+        color: transparent;
+    }
+    100% {
+        color: lime;
+    }
+}
+#hurufC {
+    animation-delay: 0s;
+}
+#hurufO {
+    animation-delay: 0.25s;
+}
+#hurufV {
+    animation-delay: 0.5s;
+}
+#hurufI {
+    animation-delay: 0.75s;
+}
+#hurufD {
+    animation-delay: 1s;
+}
+#tandaStrip {
+    animation-delay: 1.25s;
+}
+#angka1 {
+    animation-delay: 1.5s;
+}
+#angka9 {
+    animation-delay: 1.75s;
+}
+.note {
+    font-weight: bolder;
+    color: blue;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 120px;
+    position: absolute;
+}
+td {
+    font-weight: bolder;
+    color: lightpink;
+    background-color:darkslategray;
+    border: none;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 25px;
+}
+.update {
+    font-weight: bolder;
+    color : orange;
+    position: absolute;
+    top: 95vh;
+}
+#tyth {
+    width: 125px;
+}

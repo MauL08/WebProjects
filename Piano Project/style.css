@@ -1,0 +1,286 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: black;
+}
+.tab {
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+td {   
+    padding: 50px;
+}
+.top {
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 50px;
+    margin-bottom: 600px;
+    animation: tulisan 4s linear infinite;
+}
+@keyframes tulisan {
+    0%,100% {
+        color: cornflowerblue;
+    }
+    50% {
+        color: transparent;
+    }
+}
+#symbol1 {
+    animation-delay: 0s;
+}
+#hurufP {
+    animation-delay: 0.25s;
+}
+#hurufI {
+    animation-delay: 0.5s;
+}
+#hurufA {
+    animation-delay: 0.75s;
+}
+#hurufN {
+    animation-delay: 1s;
+}
+#hurufO {
+    animation-delay: 1.25s;
+}
+#symbol2 {
+    animation-delay: 1.5s;
+}
+.no1 {
+    
+    animation: not1 2s;
+}
+@keyframes not1 {
+    50% {
+        transform: translateY(-100%);
+    }
+}
+.no2 {
+    animation: not2 2s;
+}
+@keyframes not2 {
+    50% {
+        transform: translateY(-100%);
+    }
+}
+.no3 {
+    animation: not3 2s;
+}
+@keyframes not3 {
+    50% {
+        transform: translateY(-100%);
+    }
+}
+.no4 {
+    animation: not4 2s;
+}
+@keyframes not4 {
+    50% {
+        transform: translateY(-100%);
+    }
+}
+.no5 {
+    animation: not5 2s;
+}
+@keyframes not5 {
+    50% {
+        transform: translateY(-100%);
+    }
+}
+.no6 {
+    animation: not6 2s;
+}
+@keyframes not6 {
+    50% {
+        transform: translateY(-100%);
+    }
+}
+.no7 {
+    animation: not7 2s;
+}
+@keyframes not7 {
+    50% {
+        transform: translateY(-100%);
+    }
+}
+.no8 {
+    animation: not8 2s;
+}
+@keyframes not8 {
+    50% {
+        transform: translateY(-100%);
+    }
+}
+#nomor1 {
+    animation: num1 2s;
+}
+@keyframes num1 {
+    50% {
+        border-style:solid;
+        border-color: red;
+        background-color: red;
+        transform: translateY(-100%);
+    }
+}
+#nomor2 {
+    animation: num2 2s;
+}
+@keyframes num2 {
+    50% {
+        border-style:solid;
+        border-color: red;
+        background-color: red;
+        transform: translateY(-100%);
+    }
+}
+#nomor3 {
+    animation: num3 2s;
+}
+@keyframes num3 {
+    50% {
+        border-style:solid;
+        border-color: red;
+        background-color: red;
+        transform: translateY(-100%);
+    }
+}
+#nomor4 {
+    animation: num4 2s;
+}
+@keyframes num4 {
+    50% {
+        border-style:solid;
+        border-color: red;
+        background-color: red;
+        transform: translateY(-100%);
+    }
+}
+#nomor5 {
+    animation: num5 2s;
+}
+@keyframes num5 {
+    50% {
+        border-style:solid;
+        border-color: red;
+        background-color: red;
+        transform: translateY(-100%);
+    }
+}
+#nomor6 {
+    animation: num6 2s;
+}
+@keyframes num6 {
+    50% {
+        border-style:solid;
+        border-color: red;
+        background-color: red;
+        transform: translateY(-100%);
+    }
+}
+#nomor7 {
+    animation: num7 2s;
+}
+@keyframes num7 {
+    50% {
+        border-style:solid;
+        border-color: red;
+        background-color: red;
+        transform: translateY(-100%);
+    }
+}
+#nomor8 {
+    animation: num8 2s;
+}
+@keyframes num8 {
+    50% {
+        border-style:solid;
+        border-color: red;
+        background-color: red;
+        transform: translateY(-100%);
+    }
+}
+.do-key, .re-key, .mi-key, .fa-key, .sol-key, .la-key, .si-key, .doo-key  {
+    font-weight: bolder;
+    font-size: 30px;
+    color: red;
+    border: none;
+    background-color: transparent;
+}
+#tombol1.active {
+    background-color: red;
+    animation: pencet1 2s;
+}
+@keyframes pencet1 {
+    50% {
+        transform: translateY(-300%);
+    }
+}
+#tombol2.active {
+    background-color: red;
+    animation: pencet2 2s;
+}
+@keyframes pencet2 {
+    50% {
+        transform: translateY(-300%);
+    }
+}
+#tombol3.active {
+    background-color: red;
+    animation: pencet3 2s;
+}
+@keyframes pencet3 {
+    50% {
+        transform: translateY(-300%);
+    }
+}
+#tombol4.active {
+    background-color: red;
+    animation: pencet4 2s;
+}
+@keyframes pencet4 {
+    50% {
+        transform: translateY(-300%);
+    }
+}
+#tombol5.active {
+    background-color: red;
+    animation: pencet5 2s;
+}
+@keyframes pencet5 {
+    50% {
+        transform: translateY(-300%);
+    }
+}
+#tombol6.active {
+    background-color: red;
+    animation: pencet6 2s;
+}
+@keyframes pencet6 {
+    50% {
+        transform: translateY(-300%);
+    }
+}
+#tombol7.active {
+    background-color: red;
+    animation: pencet7 2s;
+}
+@keyframes pencet7 {
+    50% {
+        transform: translateY(-300%);
+    }
+}
+#tombol8.active {
+    background-color: red;
+    animation: pencet8 2s;
+}
+@keyframes pencet8 {
+    50% {
+        transform: translateY(-300%);
+    }
+}

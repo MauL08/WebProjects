@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://images.wallpaperscraft.com/image/milky_way_starry_sky_galaxy_119519_1920x1080.jpg);
+    background-position: center;
+}
+.judul {
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    left: 44.5%;
+}
+.top {
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: cyan;
+    font-weight: bolder;
+    animation: atas 3s infinite;
+}
+@keyframes atas {
+    0%,100% {
+        color: cyan;
+    }
+    50% {
+        color: transparent;
+    }
+}
+#ToWord {
+    animation-delay: 0s;
+}
+#DoWord {
+    animation-delay: 1s;
+}
+#ListWord {
+    animation-delay: 2s;
+}
+.typebox {
+    position: absolute;
+    resize: none;
+    font-size: 16px;
+    left: 26%;
+    width: 45%;
+    top: 40.85%;
+    height: 42px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.addbox {
+    font-size: 20px;
+    background-color: lightblue;
+    text-align: center;
+    position: absolute;
+    left: 71%;
+    width: 50px;
+    height: 44px;
+    top: 26.56%;
+}
+.urutan {
+    position: absolute;
+    background: darkcyan;
+    top: 40%;
+    padding: 50px;
+    width: 40vw;
+    border: groove 10px lightsalmon;
+}
+#listtext {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input {
+    position: absolute;
+    left: 90%;
+    margin-top: -7%;
+}
+span {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#resetButton {
+    position: absolute;
+    background: red;
+    left: 47.5%;
+    padding: 10px;
+    font-weight: bolder;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="WebContent" content="ToDo">
+    <title>Simple To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="judul">
+        <span class="top" id="ToWord">To</span>
+        <span class="top" id="DoWord">Do</span>
+        <span class="top" id="ListWord">List</span>
+    </div>
+    <div class="container">
+        <input class="typebox" placeholder="Type Here!" id="type"></input>
+        <button type="button" class="addbox" value="+" id="box" onclick="addtext()">+</button>
+    </div>
+    <div class="urutan">
+        <span>Your List :</span>
+        <br><br><br>
+        <ol id="listtext"></ol>
+        <button id="resetButton" type="reset" onclick="delfc()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
